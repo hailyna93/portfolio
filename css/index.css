@@ -1,0 +1,101 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    padding: 0px 20%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Header*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+
+nav ul li {
+    display: inline-block;
+    padding-right: 0.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+/* About Me */
+
+#about {
+    display: flex;
+    margin-top: 20px;
+}
+
+#lovelace {
+    width: 300px;
+    border-radius: 20px;
+    margin-left: 20px;
+    flex-shrink: 0;
+}
+
+/* Project */
+
+#project ul {
+    padding-left: 0;
+}
+
+#project ul li {
+    list-style: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+summary {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+summary h3 {
+    display: inline;
+}
+
+#project details summary::before {
+    content: "\2794 \020";
+}
+
+#project img {
+    width: 50%;
+}
+
+/* Skills */
+
+#skill-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+}
+
+i {
+    font-size: 2rem;
+    width: 2em;
+    margin-bottom: 20px;
+}
+
+/* Footer */
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.heart {
+    color: red;
+}
+
